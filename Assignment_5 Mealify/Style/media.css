@@ -1,0 +1,150 @@
+@media screen and (min-width:640px){
+    
+    .nav-bar .nav-links li{
+        padding: 5px;
+    }
+    
+    .header-inner{
+        flex-direction: column-reverse;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .heading{
+        height: 140vh;
+    }
+    .header-inner img{
+        margin-left: 0;
+    }
+
+    .card{
+        width: 100%;
+    }
+    .chefs-cards{
+        flex-direction: column;
+        
+    }
+
+}
+
+
+@media screen and(min-width:768px) {
+    .nav-bar .nav-links li{
+        padding: 5px;
+    }
+    
+    .header-inner{
+        flex-direction: column-reverse;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .heading{
+        height: 140vh;
+    }
+    .header-inner img{
+        margin-left: 0;
+    }
+
+    .card{
+        width: 50%;
+    }
+    .chefs-cards{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+
+
+}
+
+@media screen and (min-width:1024px){
+    .nav-bar .nav-links li{
+        padding: 20px;
+    }
+    
+    .heading{
+        height: 100vh;
+    }
+    .header-inner{
+        flex-direction: row;
+        
+    }
+    .sec-chefs{
+        height: 110vh;
+    }
+    .chefs-cards{
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+    }
+    .card{
+        width: 33%;
+    }
+    .column{
+        justify-content: space-around;
+        flex-direction: row; 
+        width: 100%;
+        display: grid;
+        grid-template-areas: 
+        "item1 item2 item3"
+        "item4 item2 item5"
+        "item4 item6 item7";
+        gap: .625rem;
+        grid-template-columns: repeat(3,33.333%);
+    }    
+    .sec-contact{
+        height: 160vh;
+    }
+    .detailes{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .detailes .det-sec{
+        width: 49%;
+    }
+    .subject{
+        width: 100%;
+       
+    }
+    .name, .email{
+        width: 49%;
+    }
+    .message{
+        flex-basis: 100%;
+        height: 15vh;
+    }
+    textarea{
+        resize: vertical;
+        min-height: 96px;
+        max-height: 256px;
+    }
+    .foot{
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+    .about{
+        width: 25%;
+        flex-basis: 50%;
+    }
+    .sub{
+        width: 100%;
+        flex-basis: 100%;
+    }
+    .get{
+        flex-basis: 50%;
+    }
+    .sub ul{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .sub input{
+        width: 70%;
+    }
+    .get ul li{
+        width: 100%;
+    }
+
+}
+
